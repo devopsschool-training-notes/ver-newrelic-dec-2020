@@ -1,0 +1,70 @@
+1234567890
+==============================
+Rajesh Kumar
+======================
+Demo --- ON AWS
+Lab --- ON AWS using Machine from Cloud
+===========================================
+Agenda - 
+-------------------------------
+Start time - 9.30 
+End - 6PM IST
+-------------------------
+Lunch time - 1 PM IST - 2 PM IST
+BREAK time
+	15 mins
+	11.30 AM 
+	3.30 PM
+========================================
+Pre Test - 15 mins
+Cloud Lab Access - 10 mins
+================================================
+1 2 34567890s
+==============================================================
+Objective
+-------------Phase 1--------------
+VMs (Centos)
+	----> JAVA
+		--> TOMCAT
+		    -----> APP
+===========================================
+-------------Phase 2--------------
+Instrument JAVA APP.
+ - Installing NewRelic APM Agent in JVM
+===========================================
+-------------Phase 3--------------
+Create a LOAD on the APPS
+		Using Jmeter
+
+===========================================
+-------------Phase 4--------------
+Analyze NewRelic APM Dashboard
+
+========================================================
+Phase 1
+----------------------------------
+Step 1 -
+13.235.86.188
+centos
+Key - ppk
+
+Step 2 - Install JDK
+
+$ sudo -s
+$ yum install java-1.8.0-openjdk-devel
+
+Step 3 -
+$ cd /opt/
+$ yum install wget -y
+$ yum install unzip -y
+$ wget https://mirrors.estointernet.in/apache/tomcat/tomcat-8/v8.5.61/bin/apache-tomcat-8.5.61.zip
+$ unzip apache-tomcat-8.5.61.zip
+$ mv apache-tomcat-8.5.61 tomcat
+$ cd tomcat
+$ cd bin/
+$ chmod -R 755 .
+$ ./startup.sh
+
+http://13.235.86.188:8080/examples/
+
+
