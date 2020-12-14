@@ -82,12 +82,34 @@ Satyam Nagapoori	13.233.224.3
 Sai Harika Adipudi	13.126.67.0
 13.232.49.173
 13.126.36.234
-
+Shiv Prakash		15.207.112.111
+15.207.18.234
 username - centos
 ppk - 	filename - rajesh-mumbai.ppk
 https://www.devopsschool.com/notes/docker/2019/
 
+===========================================
+-------------Phase 2--------------
+Instrument JAVA APP.
+ - Installing NewRelic APM Agent in JVM
 
+Step 1- Go to newrelic and APM and Add JAVA Aspp
+
+Step 2- 
+
+$ cd /opt/
+$ curl -O https://download.newrelic.com/newrelic/java-agent/newrelic-agent/current/newrelic-java.zip
+$ unzip newrelic-java.zip
+$ cd newrelic
+$ mv newrelic.yml newrelic.yml-temp
+# Copy Downloaded newrelic.yml
+
+$ cd /opt/tomcat/bin/
+$ vi catalina.sh
+export CATALINA_OPTS="$CATALINA_OPTS -javaagent:FULL_PATH_TO/newrelic.jar"
+$ ./shutdown.sh
+$ ./startup.sh
+$ ps -eaf | grep newrelic
 
 
 
