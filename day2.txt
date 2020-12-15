@@ -48,10 +48,15 @@ Step 5 - go to location C:\tools\apache-jmeter-5.3\bin
 - cmd
 - run "jmeter.bat"
 
+=============================
+13.232.61.154
 
+http://13.232.61.154:8080/examples/jsp/dates/date.jsp
+http://13.232.61.154:8080/examples/jsp/jsp2/simpletag/repeat.jsp
+http://13.232.61.154:8080/examples/async/async0
 
-
-
+Example -
+https://www.guru99.com/jmeter-performance-testing.html
 
 
 
