@@ -23,4 +23,37 @@ Step 1 - Go to newrelic.yaml and change your License key.
 Step 2 - Start a Tomcat
 
 Step 3 - Check newelic website and under APM. if you are getting active AppName.
+==================================================
+
+
+===========================================
+-------------Phase 3--------------
+Create a LOAD on the APPS
+		Using Jmeter
+
+---- You can do in WINDOWS -------
+
+Step1 - Install JDK 8 and JAVA_HOME with C:\tools\Java\jdk1.8.0_231
+
+Step 2 - Download jmeter package zip file
+
+Step 3 - Extract zip file into c:/tools/jmeter
+				ie. C:\tools\apache-jmeter-5.3
+
+Step 4 - Download "jmeter plugins manager jar file" into C:\tools\apache-jmeter-5.3\lib\ext
+from - https://github.com/devopsschool-training-notes/ver-newrelic-dec-2020/
+
+Step 5 - go to location C:\tools\apache-jmeter-5.3\bin 
+
+- cmd
+- run "jmeter.bat"
+
+
+
+
+
+
+
+
+
 
