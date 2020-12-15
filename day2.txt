@@ -1,0 +1,26 @@
+PANDIMEENA.S	65.0.30.203
+Suryaman A	65.0.205.15
+Joseph		13.233.77.203
+naresh		13.234.112.84
+Seetharaman 	13.232.29.247
+Shivaprasad Nooka	15.206.170.218
+Nakul Joshi		15.206.79.96
+Ravi Raj Choudhary	65.0.203.158
+Ankit Prabhatkumar	13.233.123.207
+Suryanshu Ranjan	52.66.178.186
+Gaspar			13.232.90.87
+Satyam Nagapoori	13.127.95.6		
+Sai Harika Adipudi	13.233.254.154
+Srinivas Reddy		13.232.202.148
+Saravanan Palaniappan	13.232.251.26
+HARI HARA SUDHAN	52.66.77.4	
+Sivaprakash KK		15.206.69.9
+HARI HARA SUDHAN V	13.127.202.77
+
+===================================
+Step 1 - Go to newrelic.yaml and change your License key.
+
+Step 2 - Start a Tomcat
+
+Step 3 - Check newelic website and under APM. if you are getting active AppName.
+
