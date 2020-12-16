@@ -35,6 +35,8 @@ msiexec.exe /qn /i "$env:TEMP\newrelic-infra.msi" GENERATE_CONFIG=true LICENSE_K
 net start newrelic-infra
 
 
+-----------
+enable_process_metrics: true
 
 
 
