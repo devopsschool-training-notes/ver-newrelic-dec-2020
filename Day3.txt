@@ -1,0 +1,50 @@
+PANDIMEENA.S		15.206.67.122
+Suryaman A		15.206.68.156
+Joseph			13.232.168.133
+naresh			13.233.186.99
+Seetharaman 		3.6.87.36
+Shivaprasad Nooka	15.206.158.108
+Nakul Joshi		13.233.0.103
+Ravi Raj Choudhary	52.66.124.135
+Ankit Prabhatkumar	65.0.91.107
+Suryanshu Ranjan	13.233.95.252
+Gaspar			13.126.8.226
+Satyam Nagapoori	13.232.242.175
+Sai Harika Adipudi	13.233.113.209
+Srinivas Reddy		13.233.92.123
+Saravanan Palaniappan	15.206.28.81
+HARI HARA SUDHAN	65.0.81.70	
+Sivaprakash KK		52.66.241.150
+HARI HARA SUDHAN V	52.66.210.254
+====================================================
+NewRelic infra
+NewRelic Log
+NewRelic Syn*
+
+===========================================
+15.206.210.102
+
+
+
+$LICENSE_KEY="6d766ffeda2c4343b757fe7841f0fdc2ce10NRAL"; `
+
+(New-Object System.Net.WebClient).DownloadFile("https://download.newrelic.com/infrastructure_agent/windows/newrelic-infra.msi", "$env:TEMP\newrelic-infra.msi"); `
+
+msiexec.exe /qn /i "$env:TEMP\newrelic-infra.msi" GENERATE_CONFIG=true LICENSE_KEY="6d766ffeda2c4343b757fe7841f0fdc2ce10NRAL" | Out-Null; `
+
+net start newrelic-infra
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
